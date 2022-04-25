@@ -1,3 +1,9 @@
+* {
+ margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
@@ -53,4 +59,26 @@ body {
 
 .center {
   text-align: center;
+}
+
+.container ul {
+  margin-left: 50px;
+  /*background-color: red;*/
+}
+
+h1, h2, h3, p {
+  margin: 12px 0;
+}
+
+footer {
+  background-color: #00a78e;
+  padding: 8px 148px;
+}
+
+footer ul {
+  margin-left: 50px;
+}
+
+footer ul li {
+  list-style-type: none;
 }
